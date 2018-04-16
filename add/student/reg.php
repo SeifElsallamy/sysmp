@@ -29,8 +29,8 @@ if (mysqli_query($conn, $sql)) {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 
-$sql = "INSERT INTO students_degrees (code, degree_id, year)
-VALUES ('$code', '$degree', '$year')";
+$sql = "INSERT INTO students_degrees (code, degree_id)
+VALUES ('$code', '$degree')";
 
 
 
@@ -48,8 +48,8 @@ if ($result->num_rows > 0) {
     // adding student scores
     while($row = $result->fetch_assoc()) {
         $course = $row["course_id"];
-		$sql = "INSERT INTO students_score (code, course_id, score)
-VALUES ('$code', '$course', '')";
+		$sql = "INSERT INTO students_score (code, course_id, score, year)
+VALUES ('$code', '$course', '', '$year')";
 
 if (mysqli_query($conn, $sql)) {
     echo "success";

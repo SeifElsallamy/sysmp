@@ -123,7 +123,7 @@ function addToSelect(r){
               </div>
               <div class="col-md-6">
                 <label for="exampleInputYear">Current Year</label>
-                <input name="year" class="form-control" id="exampleInputYear" type="text" aria-describedby="yearHelp" placeholder="Enter Current Year example: 2018" required>
+                <input name="year" class="form-control" id="exampleInputYear" type="text" aria-describedby="yearHelp" placeholder="Example: 2018" required>
               </div>
             </div>
           </div>
