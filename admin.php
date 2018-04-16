@@ -56,6 +56,13 @@
             <span class="nav-link-text">Add new payment</span>
           </a>
        </li>
+	   
+	   <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link" onclick="s('add/courses_professors/index.php')" ><!--<a class="nav-link" href="tables.html">-->
+            <i class="fa fa-fw fa-wrench"></i>
+            <span class="nav-link-text">Add professor to a course</span>
+          </a>
+        </li>
 		
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
           <a class="nav-link" onclick="s('add/course/index.php')" ><!--<a class="nav-link" href="tables.html">-->
@@ -63,6 +70,7 @@
             <span class="nav-link-text">Add new course</span>
           </a>
         </li>
+		
 	  
 	  	<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
           <a class="nav-link" onclick="s('add/degree/index.php')" ><!--<a class="nav-link" href="tables.html">-->
