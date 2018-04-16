@@ -7,7 +7,7 @@ $code = $_POST['code'];
 $course_id = $_POST['course_id'];
 $score = $_POST['score'];
 
-$sql = "UPDATE students_score SET code='$code', course_id='$course_id', score='$score'  WHERE code='$code' and course_id='$course_id'";
+$sql = "UPDATE students_score SET score='$score' WHERE code='$code' and course_id='$course_id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Record updated successfully";
