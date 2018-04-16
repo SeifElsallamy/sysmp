@@ -68,7 +68,6 @@ function Result(myresult, action) {
 				input = addAttribute(input, "name", col[j]);
 				input = addAttribute(input, "value", myresult[i][col[j]]);
 				input = addAttribute(input, "form", myresult[i][col[0]]);
-				input = addAttribute(input, "readonly", "");
 
 				input = addAttribute(input, "class", "form-control");
 				
